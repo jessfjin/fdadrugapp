@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>FDA API Test - Jess</title>
+    <!-- jQuery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- personalized CSS link -->
+  	<link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Libre+Barcode+39+Text|Open+Sans" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+    <!-- Main Title -->
+    <header>
+        <h3 id="title">FDA Drug Search Demo</h3>
+    </header>
+    
+    <!-- Center Dashboard -->
+    <section id="dash">
+        <!-- Input Box -->
+        <input type="text" id="inputteddrug">
+        <button onclick="searchdrug()">Search</button>
+        <br> <br>
+
+    </section>
+
+    <section id="effects">
+        <h3 id="subtitle">Potential Side Effects</h3>
+        <div id="drugsearchresults"></div>
+
+    </section>
+    
+
+ 
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
